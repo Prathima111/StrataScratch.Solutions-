@@ -1,4 +1,4 @@
-select location f,
+select f.location,
 avg(popularity)
 from facebook_employees f
 left join 
